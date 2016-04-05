@@ -1,8 +1,7 @@
 # Perfect - mod_perfect - Apache 2.4 Connector
-Write me!
 
 ## Linux Build Notes
-* cd into mod_perfect
+* cd Sources
 * make
 
 This will automatically install the appropriate Apache development resources if required, potentially prompting you for your sudo password. You must then install the produced mod_perfect.so as you would any other Apache module.
