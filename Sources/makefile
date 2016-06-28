@@ -6,7 +6,7 @@ TARGET = mod_perfect
 OS := $(shell uname -s)
 ifeq ($(OS),Darwin)
   .DEFAULT_GOAL := all-osx
-  MACOSX_DEPLOYMENT_TARGET := 10.11
+  MACOSX_DEPLOYMENT_TARGET := 10.12
   
   osx_A2_MODROOT = /usr/local
   SDKROOT := $(shell xcodebuild -version -sdk macosx$(MACOSX_DEPLOYMENT_TARGET) Path)

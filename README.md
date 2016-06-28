@@ -22,7 +22,7 @@ Here is a sample Apache .conf snippet. This uses mod_rewrite in order to provide
 
 ```
 <IfModule !perfect_module>
-	LoadModule perfect_module /path/to/mod_perfect.dylib
+	LoadModule perfect_module /path/to/mod_perfect.so
 </IfModule>
 
 <IfModule !rewrite_module>
